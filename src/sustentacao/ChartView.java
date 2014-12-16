@@ -123,5 +123,5 @@ public class ChartView implements Serializable {
 		this.dataFim = dataFim;
 	}
 	
-	
+	public void teste() {};
 }
