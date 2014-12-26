@@ -24,9 +24,9 @@ public class RelatorioSB implements Serializable {
 	 * 
 	 * @return lista de Relatorio
 	 */
-	public List<Relatorio> findDate(Date dataInicio, Date dataFim, List<Long> equipes) {
+	public List<Relatorio> find(Date dataInicio, Date dataFim, List<Equipe> equipes) {
 		RelatorioDAO dao = new RelatorioDAO();
-		return dao.findDate(dataInicio, dataFim, equipes);
+		return dao.find(dataInicio, dataFim, equipes);
 	}
 
 	/**
